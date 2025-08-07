@@ -16,7 +16,7 @@ val flutterVersionCode: String = localProperties.getProperty("flutter.versionCod
 val flutterVersionName: String = localProperties.getProperty("flutter.versionName") ?: "1.0"
 
 android {
-    namespace = "com.example.yourapp"
+    namespace = "com.example.tic_tac_toe_frontend"
     compileSdk = 35
     ndkVersion = "27.3.13750724"
 
@@ -32,7 +32,7 @@ android {
     sourceSets["main"].java.srcDir("src/main/kotlin")
 
     defaultConfig {
-        applicationId = "com.example.yourapp"
+        applicationId = "com.example.tic_tac_toe_frontend"
         minSdk = 24
         targetSdk = 35
         versionCode = flutterVersionCode.toInt()
